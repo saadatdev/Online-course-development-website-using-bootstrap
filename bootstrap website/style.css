@@ -1,0 +1,52 @@
+
+
+.carousel-item{
+    height: 644px;
+
+}
+.carousel-item>img{
+    object-fit: cover;
+}
+.carousel-caption{
+    bottom: 10.25rem;
+}
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    background-color: black;
+    padding: 20px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust opacity as needed */
+}
+
+.services-text p{
+    text-align: center;
+}
+.section-text img{
+    max-width: 120px;
+    margin-bottom: 10px;
+   
+}
+.section-text p{
+    font-size: 12px;
+}
+.section-text{
+    padding: 20px;
+    border: 1px solid gainsboro; 
+}
+
+.navbar.sticky{
+        background-color: black;
+}
+@media (max-width:992px) {
+    .section-text{
+        margin-bottom: 20px;
+    }
+}
+
+
+
